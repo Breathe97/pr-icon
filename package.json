@@ -1,0 +1,41 @@
+{
+  "name": "pr-icon",
+  "description": "基于 vue3 封装的一个图标库。",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.1",
+    "vite-plugin-libcss": "^1.1.1",
+    "vue-tsc": "^2.0.12"
+  },
+  "private": false,
+  "author": "Breathe",
+  "keywords": [
+    "pr-screen-adapter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Breathe97/pr-screen-adapter"
+  }
+}
