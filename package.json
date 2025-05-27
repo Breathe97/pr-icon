@@ -1,7 +1,7 @@
 {
   "name": "pr-icon",
   "description": "基于 vue3 封装的一个图标库。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -24,8 +24,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8",
-    "vite-plugin-dts": "^3.8.1",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4",
     "vite-plugin-libcss": "^1.1.1",
     "vue-tsc": "^2.0.12"
   },

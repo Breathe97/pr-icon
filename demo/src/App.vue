@@ -4,7 +4,7 @@
 
 <template>
   <div id="app">
-    <pr-icon></pr-icon>
+    <pr-icon name="pryun" :size="40"></pr-icon>
   </div>
 </template>
 
