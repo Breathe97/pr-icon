@@ -1,7 +1,7 @@
 {
   "name": "pr-icon",
   "description": "基于 vue3 封装的一个图标库。",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "files": [
     "dist"
